@@ -4,9 +4,22 @@
     font-family: 'poppins', sans-serif;
 }
 
+h3{
+    font-size: 18px;
+    color: #b90032;
+}
+
+h1{
+    padding-bottom: 28px;
+}
+p{
+    font-size: 16px;
+
+}
+
 section{
     width: 1160px;
-    margin: 0px auto;
+    margin: 85px auto 0px auto;
     /*position: relative;*/
 }
 
@@ -22,9 +35,7 @@ section{
     align-items: center;
     position: absolute;
     bottom: 4px;
-    width: 100%
-
-   
+    width: 100%   
 }
 
 .mais-image p{
@@ -37,19 +48,37 @@ header{
     background-color: #8fb900;
     display: flex;
     justify-content: center;
-    color: white;
-    
+    color: white;   
 }
 
-header a{
+.btn{
     color: white;
     text-decoration: none;
     font-size: 10px;
     padding: 12px;
     border: 2px solid #fff;
     font-weight: bold;
+    /*padding: 12px 0px !important;*/
+    /*display: block;*/
+    
+    
 }
 
+.btn-red{
+    border: none;
+    background-color: #b90032;
+    color: white;
+    width: 234px;
+    display: block;
+    font-size: 17px;
+    margin: 12px 0px auto 0px; 
+    text-align: center;
+}
+
+section a:hover{
+    color: #b90032;
+    background-color: #8598a9;
+}
 header a:hover{
     color: green;
     background: white;
@@ -65,5 +94,18 @@ header div{
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    
+}
+
+.item{
+    width: 280px;
+    border: 1px solid #b90032;
+}
+
+.item-description{
+    padding: 12px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
 }
