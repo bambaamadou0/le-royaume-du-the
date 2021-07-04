@@ -4,7 +4,7 @@
     font-family: 'poppins', sans-serif;
 }
 
-h3{
+h2{
     font-size: 18px;
     color: #b90032;
 }
@@ -108,4 +108,15 @@ header div{
 .container-items{
     display: flex;
     justify-content: space-between;
+}
+
+/*business*/
+
+.business{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-business{
+    width: 570px;
 }
