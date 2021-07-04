@@ -13,7 +13,7 @@ h2{
 
 h1{
     padding-bottom: 25px;
-    margin-top: 12px;
+    margin-top: 18px;
 }
 p{
     font-size: 16px;
@@ -53,9 +53,9 @@ section{
 
 header{
     background-color: #8fb900;
-    /*display: flex;
-    justify-content: center;*/
-    color: white;   
+    display: flex;
+    justify-content: center;
+    color: white;  
 }
 
 .btn{
@@ -101,7 +101,7 @@ header h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0px;
+    padding: 0px auto;
     margin: auto;
 }
 
@@ -137,6 +137,7 @@ footer{
     background-color: #8fb900;
     color: #fff;
     margin-top: 80px;
+    padding: 15px 0 15px 0;
     
 }
 
